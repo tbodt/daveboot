@@ -1,4 +1,4 @@
-DaveBoot
+# DaveBoot
 ========
 
-DaveGrohl Password Hash Hack Booter.
+[DaveGrohl](http://davegrohl.org/) Password Hash Hack Booter.
