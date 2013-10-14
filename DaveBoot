@@ -5,7 +5,7 @@ echo What is the shortname for the user you would like to attack?
 read SHORTNAME
 rm ~/Desktop/DaveGrohl-2.1.zip
 rm -rf ~/Desktop/__MACOSX
-rm -rf DaveGrohl
+rm -rf ~/Desktop/DaveGrohl
 clear
 cd ~/Desktop
 curl -O http://davegrohl.org/DaveGrohl-2.1.zip
@@ -19,3 +19,4 @@ echo Extraction  Successful!
 echo More information in the DaveGrohl folder on your Desktop.
 cd ~/Desktop/DaveGrohl
 echo "Open Terminal (/Applications/Utilities/Terminal) and type 'cd Desktop && sudo ./Dave -u $SHORTNAME' - You will then be asked to enter your admin password. Without an admin password, DaveGrohl will not work." > Instructions.txt
+open  ~/Desktop/DaveGrohl/Instructions.txt 
