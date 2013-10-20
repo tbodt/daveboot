@@ -4,7 +4,7 @@
 
 ## Changelog
 **1.1**
-.png DaveBoot icon is included.
+- .png DaveBoot icon is included.
 
 **1.0**
-Initial Commit
+- Initial Commit
