@@ -18,5 +18,5 @@ clear
 echo Extraction  Successful!
 echo More information in the DaveGrohl folder on your Desktop.
 cd ~/Desktop/DaveGrohl
-echo "Open Terminal (/Applications/Utilities/Terminal) and type 'cd Desktop && sudo ./Dave -u $SHORTNAME' - You will then be asked to enter your admin password. Without an admin password, DaveGrohl will not work." > Instructions.txt
+echo "Open Terminal (/Applications/Utilities/Terminal) and type 'cd Desktop && sudo ./DaveGrohl/Dave -u $SHORTNAME' - You will then be asked to enter your admin password. Without an admin password, DaveGrohl will not work." > Instructions.txt
 open  ~/Desktop/DaveGrohl/Instructions.txt 
