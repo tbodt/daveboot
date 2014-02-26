@@ -19,7 +19,7 @@ If anyone's actually reading this, don't expect anything to genuinely impress yo
 - daveboot *actually* launches DaveGrohl. I have no idea what I was thinking when I had bash generate the readme file on how to do it yourself.
 - Fixed more idiotic things and made things null because things are annoying
 
-### 1.1
+## 1.1
 - .png DaveBoot icon is included.
 
 ## 1.0
