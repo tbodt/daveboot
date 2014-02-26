@@ -11,6 +11,7 @@ $ ./daveboot
 ```
 
 ## Changelog
+If anyone's actually reading this, don't expect anything to genuinely impress you.
 
 ## 2.0
 - Things work better because I made the code not shit.
