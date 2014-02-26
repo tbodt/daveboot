@@ -11,5 +11,6 @@ rm Dave*.zip
 rm -r  __MACOSX
 clear
 cd Dave*
-echo "daveboot needs sudo privileges:"
+echo "daveboot may need sudo privileges: 
+"
 sudo ./Dave -u "$SHORTNAME"
