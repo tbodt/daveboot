@@ -33,4 +33,4 @@ If anyone's actually reading this, don't expect anything to genuinely impress yo
 ## Legal
 [Do whatever you want with daveboot](http://creativecommons.org/publicdomain/zero/1.0/), it don't matter. DaveGrohl isn't mine, don't sue me. All rights reserved for whoever coded it.
 
-![](http://www.fooarchive.com/gpb/qinterview07_2.jpg)
+![](http://www.elmoremagazine.com/wp-content/uploads/2014/01/music-dave-grohl.jpeg-1280x960.jpg)
