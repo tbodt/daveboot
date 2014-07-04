@@ -13,4 +13,4 @@ clear
 cd Dave*
 echo "daveboot may need sudo privileges: 
 "
-sudo ./Dave -u "$SHORTNAME"
+sudo ./dave -u "$SHORTNAME"
