@@ -5,7 +5,7 @@
 To run **daveboot** you'll need to `git clone` it into your chosen location, and then `cd` into its directory and execute it:
 
 ```bash
-$ git clone http://github.com/trommel/daveboot ~/Desktop/daveboot
+$ git clone http://github.com/probablyjosh/daveboot ~/Desktop/daveboot
 $ cd ~/Desktop/daveboot/
 $ ./daveboot
 ```
@@ -26,7 +26,7 @@ If anyone's actually reading this, don't expect anything to genuinely impress yo
 - Initial Commit
 
 ## Credits
-- [Josh Trommel](http://github.com/trommel) for the shitty code
+- [Josh Trommel](http://github.com/probablyjosh) for the shitty code
 - Internet friends for encouragement probably
 - Dave Grohl for being radical
 
