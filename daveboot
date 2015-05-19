@@ -1,12 +1,13 @@
 #!/bin/bash
 
 clear
-cd ~/Desktop
+mkdir /tmp/daveboot
+cd /tmp/daveboot
 read -p "Welcome to daveboot
 What is the shortname for the user you would like to target? " SHORTNAME
 clear
-curl -O "https://www.dropbox.com/s/lcizib8jkut4i7f/DaveGrohl-2.1.zip" > /dev/null 2>&1 
-unzip  Dave* > /dev/null 2>&1 
+curl -sO "http://davegrohl.org/DaveGrohl-2.1.zip"
+unzip Dave* > /dev/null 2>&1 
 rm Dave*.zip
 rm -r  __MACOSX
 clear
